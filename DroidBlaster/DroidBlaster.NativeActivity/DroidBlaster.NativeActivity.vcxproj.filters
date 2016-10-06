@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="android_native_app_glue.h" />
+    <ClInclude Include="Types.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLoop.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivityHandler.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="DroidBlaster.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveableBody.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>jni</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="android_native_app_glue.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Log.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLoop.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="DroidBlaster.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveableBody.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="jni">
+      <UniqueIdentifier>{5d2299c5-3612-466e-b09b-d2fd7ba87373}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
